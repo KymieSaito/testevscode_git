@@ -4,86 +4,174 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ferramentas de Marketing com IA | Kymie Karina Saito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="page-hero">
-    <div class="container">
-      <a href="index.html" class="breadcrumb">← Voltar para a homepage</a>
-      <h1>Ferramentas de Marketing com IA</h1>
-      <p>
-        Uma seleção de ferramentas voltadas para copy, CRM, automação, campanhas,
-        produtividade comercial, conteúdo e crescimento digital.
-      </p>
-    </div>
-  </header>
+  <div class="lang-switcher" style="position: fixed; top: 20px; right: 20px; z-index: 1001;">
+    <button class="lang-btn active" data-lang="pt">🇧🇷 PT</button>
+    <button class="lang-btn" data-lang="en">🇺🇸 EN</button>
+  </div>
 
-  <main>
-    <section class="section">
+  <!-- PORTUGUÊS -->
+  <div class="lang-content" data-lang="pt">
+    <header class="page-header" style="padding: 100px 0 60px; background: linear-gradient(135deg, #0a0c15, #0f172a);">
       <div class="container">
-        <div class="detail-grid">
-          <div class="detail-card">
-            <span class="tool-badge">CRM + Automação</span>
-            <h3>HubSpot</h3>
-            <p><strong>Para quem é:</strong> empresas e times de marketing e vendas.</p>
-            <p><strong>O que resolve:</strong> organização de leads, automação de fluxos e gestão comercial.</p>
-            <p><strong>Diferencial:</strong> une CRM, marketing e relacionamento em um só ecossistema.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
+        <a href="index.html" style="display: inline-flex; align-items: center; gap: 8px; color: #f59e0b; text-decoration: none; margin-bottom: 24px;">
+          <i class="fas fa-arrow-left"></i> Voltar para homepage
+        </a>
+        <h1>Ferramentas de <span class="gradient">Marketing</span> com IA</h1>
+        <p style="color: #94a3b8; max-width: 700px; margin-top: 16px;">Copy, CRM, automação, SEO, e-mail marketing e conteúdo estratégico</p>
+      </div>
+    </header>
 
-          <div class="detail-card">
-            <span class="tool-badge">Copywriting</span>
-            <h3>Jasper</h3>
-            <p><strong>Para quem é:</strong> criadores, marketers e empresas que precisam escalar conteúdo.</p>
-            <p><strong>O que resolve:</strong> dificuldade para criar textos de campanha, blog, anúncio e páginas de venda.</p>
-            <p><strong>Diferencial:</strong> foco forte em marketing e comunicação persuasiva.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">SEO</span>
-            <h3>Surfer SEO</h3>
-            <p><strong>Para quem é:</strong> profissionais que querem conteúdo mais alinhado a busca orgânica.</p>
-            <p><strong>O que resolve:</strong> dificuldade em estruturar artigos e páginas para SEO.</p>
-            <p><strong>Diferencial:</strong> combina conteúdo e otimização de busca.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">E-mail Marketing</span>
-            <h3>Mailchimp</h3>
-            <p><strong>Para quem é:</strong> negócios que trabalham com base de leads e campanhas.</p>
-            <p><strong>O que resolve:</strong> comunicação recorrente com contatos e jornadas automatizadas.</p>
-            <p><strong>Diferencial:</strong> facilita campanhas, segmentação e acompanhamento.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">Conteúdo Visual</span>
-            <h3>Canva</h3>
-            <p><strong>Para quem é:</strong> social media, pequenos negócios, criadores e equipes enxutas.</p>
-            <p><strong>O que resolve:</strong> criação rápida de artes, apresentações e materiais promocionais.</p>
-            <p><strong>Diferencial:</strong> velocidade e facilidade de uso com recursos de IA.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">Automação</span>
-            <h3>Zapier</h3>
-            <p><strong>Para quem é:</strong> quem quer conectar ferramentas de marketing sem programar.</p>
-            <p><strong>O que resolve:</strong> tarefas repetitivas entre formulários, CRM, planilhas e e-mail.</p>
-            <p><strong>Diferencial:</strong> integra muitos aplicativos e ajuda a escalar operação.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="tools-grid">
+            <div class="tool-card">
+              <span class="tool-badge">CRM</span>
+              <h3>HubSpot</h3>
+              <p>Plataforma completa de CRM, marketing e vendas. Ideal para escalar operações.</p>
+              <div class="tool-rating">★★★★★ 5.0</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Copywriting</span>
+              <h3>Jasper AI</h3>
+              <p>Copywriting de alta conversão, campanhas e conteúdo estratégico com IA.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">SEO</span>
+              <h3>Surfer SEO</h3>
+              <p>Otimização de conteúdo para SEO. Estruture artigos que realmente rankeiam.</p>
+              <div class="tool-rating">★★★★★ 4.7</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">E-mail</span>
+              <h3>Mailchimp</h3>
+              <p>Automação de e-mail marketing, segmentação e campanhas personalizadas.</p>
+              <div class="tool-rating">★★★★★ 4.6</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Design</span>
+              <h3>Canva</h3>
+              <p>Criação rápida de artes, apresentações e materiais promocionais com IA.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Automação</span>
+              <h3>Zapier</h3>
+              <p>Conecte ferramentas e automatize fluxos de trabalho sem programar.</p>
+              <div class="tool-rating">★★★★★ 4.7</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© 2026 Kymie Karina Saito | Ferramentas de Marketing com IA</p>
-    </div>
-  </footer>
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Kymie Karina Saito | Ferramentas de Marketing com IA</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="lang-content" data-lang="en" style="display: none;">
+    <header class="page-header" style="padding: 100px 0 60px; background: linear-gradient(135deg, #0a0c15, #0f172a);">
+      <div class="container">
+        <a href="index.html" style="display: inline-flex; align-items: center; gap: 8px; color: #f59e0b; text-decoration: none; margin-bottom: 24px;">
+          <i class="fas fa-arrow-left"></i> Back to homepage
+        </a>
+        <h1>AI <span class="gradient">Marketing</span> Tools</h1>
+        <p style="color: #94a3b8; max-width: 700px; margin-top: 16px;">Copy, CRM, automation, SEO, email marketing, and strategic content</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="tools-grid">
+            <div class="tool-card">
+              <span class="tool-badge">CRM</span>
+              <h3>HubSpot</h3>
+              <p>Complete CRM, marketing, and sales platform. Perfect for scaling operations.</p>
+              <div class="tool-rating">★★★★★ 5.0</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Copywriting</span>
+              <h3>Jasper AI</h3>
+              <p>High-conversion copywriting, campaigns, and strategic content with AI.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">SEO</span>
+              <h3>Surfer SEO</h3>
+              <p>Content optimization for SEO. Structure articles that actually rank.</p>
+              <div class="tool-rating">★★★★★ 4.7</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Email</span>
+              <h3>Mailchimp</h3>
+              <p>Email marketing automation, segmentation, and personalized campaigns.</p>
+              <div class="tool-rating">★★★★★ 4.6</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Design</span>
+              <h3>Canva</h3>
+              <p>Quick creation of designs, presentations, and promotional materials with AI.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Automation</span>
+              <h3>Zapier</h3>
+              <p>Connect tools and automate workflows without coding.</p>
+              <div class="tool-rating">★★★★★ 4.7</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Kymie Karina Saito | AI Marketing Tools</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const langBtns = document.querySelectorAll('.lang-btn');
+    const langContents = document.querySelectorAll('.lang-content');
+
+    function switchLanguage(lang) {
+      langContents.forEach(content => {
+        content.style.display = content.dataset.lang === lang ? 'block' : 'none';
+      });
+      langBtns.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+    }
+
+    langBtns.forEach(btn => {
+      btn.addEventListener('click', () => switchLanguage(btn.dataset.lang));
+    });
+  </script>
 </body>
 </html>

@@ -4,86 +4,174 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ferramentas de Animação com IA | Kymie Karina Saito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="page-hero">
-    <div class="container">
-      <a href="index.html" class="breadcrumb">← Voltar para a homepage</a>
-      <h1>Ferramentas de Animação e Vídeo com IA</h1>
-      <p>
-        Uma seleção de ferramentas para criação audiovisual, vídeos com avatar,
-        animação, edição assistida por IA e produção de conteúdo visual.
-      </p>
-    </div>
-  </header>
+  <div class="lang-switcher" style="position: fixed; top: 20px; right: 20px; z-index: 1001;">
+    <button class="lang-btn active" data-lang="pt">🇧🇷 PT</button>
+    <button class="lang-btn" data-lang="en">🇺🇸 EN</button>
+  </div>
 
-  <main>
-    <section class="section">
+  <!-- PORTUGUÊS -->
+  <div class="lang-content" data-lang="pt">
+    <header class="page-header" style="padding: 100px 0 60px; background: linear-gradient(135deg, #0a0c15, #0f172a);">
       <div class="container">
-        <div class="detail-grid">
-          <div class="detail-card">
-            <span class="tool-badge">Vídeo IA</span>
-            <h3>Runway</h3>
-            <p><strong>Para quem é:</strong> criadores, agências, marcas e produtores digitais.</p>
-            <p><strong>O que resolve:</strong> edição e geração de vídeo com mais velocidade.</p>
-            <p><strong>Diferencial:</strong> forte presença em vídeo generativo e fluxos criativos.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
+        <a href="index.html" style="display: inline-flex; align-items: center; gap: 8px; color: #f59e0b; text-decoration: none; margin-bottom: 24px;">
+          <i class="fas fa-arrow-left"></i> Voltar para homepage
+        </a>
+        <h1>Ferramentas de <span class="gradient">Animação & Vídeo</span> com IA</h1>
+        <p style="color: #94a3b8; max-width: 700px; margin-top: 16px;">Avatares, motion design, edição e geração visual com inteligência artificial</p>
+      </div>
+    </header>
 
-          <div class="detail-card">
-            <span class="tool-badge">Avatar</span>
-            <h3>Synthesia</h3>
-            <p><strong>Para quem é:</strong> empresas, treinamentos, onboarding e comunicação escalável.</p>
-            <p><strong>O que resolve:</strong> necessidade de criar vídeos sem gravação tradicional.</p>
-            <p><strong>Diferencial:</strong> vídeos com apresentadores virtuais e linguagem corporativa.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">Motion</span>
-            <h3>Kaiber</h3>
-            <p><strong>Para quem é:</strong> artistas, músicos e criadores visuais.</p>
-            <p><strong>O que resolve:</strong> transformar ideias em vídeos e animações estilizadas.</p>
-            <p><strong>Diferencial:</strong> visual criativo e forte apelo artístico.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">Vídeo Curto</span>
-            <h3>Pika</h3>
-            <p><strong>Para quem é:</strong> criadores de conteúdo e produção rápida para social media.</p>
-            <p><strong>O que resolve:</strong> criação de clipes e cenas com IA.</p>
-            <p><strong>Diferencial:</strong> foco em agilidade e experimentação visual.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">Edição</span>
-            <h3>Descript</h3>
-            <p><strong>Para quem é:</strong> quem trabalha com vídeo, podcast e edição baseada em texto.</p>
-            <p><strong>O que resolve:</strong> edição trabalhosa de áudio e vídeo.</p>
-            <p><strong>Diferencial:</strong> edição intuitiva com transcrição e produtividade.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
-          </div>
-
-          <div class="detail-card">
-            <span class="tool-badge">Apresentação Visual</span>
-            <h3>Canva</h3>
-            <p><strong>Para quem é:</strong> profissionais que precisam de vídeos simples, apresentações e materiais visuais.</p>
-            <p><strong>O que resolve:</strong> produção rápida de peças visuais e animações leves.</p>
-            <p><strong>Diferencial:</strong> facilidade de uso e ecossistema amplo para criação.</p>
-            <a class="detail-link" href="#" target="_blank">Adicionar link de afiliada</a>
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="tools-grid">
+            <div class="tool-card">
+              <span class="tool-badge">Vídeo IA</span>
+              <h3>Runway ML</h3>
+              <p>Edição e geração de vídeo com IA. Ferramenta favorita de criadores e agências.</p>
+              <div class="tool-rating">★★★★★ 4.7</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Avatar</span>
+              <h3>Synthesia</h3>
+              <p>Vídeos com apresentadores virtuais. Ideal para treinamentos e comunicação corporativa.</p>
+              <div class="tool-rating">★★★★★ 4.9</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Motion</span>
+              <h3>Kaiber</h3>
+              <p>Transforme ideias em animações estilizadas com IA. Perfeito para artistas e criativos.</p>
+              <div class="tool-rating">★★★★☆ 4.5</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Edição</span>
+              <h3>Descript</h3>
+              <p>Edite vídeos e podcasts como se fosse um documento de texto. Revolucionário.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Vídeo Curto</span>
+              <h3>Pika Labs</h3>
+              <p>Gere clipes e cenas curtas com IA. Foco em agilidade para redes sociais.</p>
+              <div class="tool-rating">★★★★☆ 4.4</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Design</span>
+              <h3>Canva</h3>
+              <p>Criação de vídeos, animações e apresentações com recursos de IA.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Conhecer ferramenta →</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© 2026 Kymie Karina Saito | Ferramentas de Animação com IA</p>
-    </div>
-  </footer>
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Kymie Karina Saito | Ferramentas de Animação com IA</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="lang-content" data-lang="en" style="display: none;">
+    <header class="page-header" style="padding: 100px 0 60px; background: linear-gradient(135deg, #0a0c15, #0f172a);">
+      <div class="container">
+        <a href="index.html" style="display: inline-flex; align-items: center; gap: 8px; color: #f59e0b; text-decoration: none; margin-bottom: 24px;">
+          <i class="fas fa-arrow-left"></i> Back to homepage
+        </a>
+        <h1>AI <span class="gradient">Animation & Video</span> Tools</h1>
+        <p style="color: #94a3b8; max-width: 700px; margin-top: 16px;">Avatars, motion design, editing, and visual generation with artificial intelligence</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="tools-grid">
+            <div class="tool-card">
+              <span class="tool-badge">Video AI</span>
+              <h3>Runway ML</h3>
+              <p>AI-powered video editing and generation. Favorite tool for creators and agencies.</p>
+              <div class="tool-rating">★★★★★ 4.7</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Avatar</span>
+              <h3>Synthesia</h3>
+              <p>Videos with virtual presenters. Perfect for training and corporate communication.</p>
+              <div class="tool-rating">★★★★★ 4.9</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Motion</span>
+              <h3>Kaiber</h3>
+              <p>Turn ideas into stylized animations with AI. Perfect for artists and creatives.</p>
+              <div class="tool-rating">★★★★☆ 4.5</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Editing</span>
+              <h3>Descript</h3>
+              <p>Edit videos and podcasts like a text document. Revolutionary tool.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Short Video</span>
+              <h3>Pika Labs</h3>
+              <p>Generate short clips and scenes with AI. Focus on speed for social media.</p>
+              <div class="tool-rating">★★★★☆ 4.4</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+            <div class="tool-card">
+              <span class="tool-badge">Design</span>
+              <h3>Canva</h3>
+              <p>Create videos, animations and presentations with AI features.</p>
+              <div class="tool-rating">★★★★★ 4.8</div>
+              <a href="#" class="tool-link">Learn more →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Kymie Karina Saito | AI Animation Tools</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const langBtns = document.querySelectorAll('.lang-btn');
+    const langContents = document.querySelectorAll('.lang-content');
+
+    function switchLanguage(lang) {
+      langContents.forEach(content => {
+        content.style.display = content.dataset.lang === lang ? 'block' : 'none';
+      });
+      langBtns.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+    }
+
+    langBtns.forEach(btn => {
+      btn.addEventListener('click', () => switchLanguage(btn.dataset.lang));
+    });
+  </script>
 </body>
 </html>
